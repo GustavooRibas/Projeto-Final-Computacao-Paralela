@@ -1,0 +1,5 @@
+# Projeto Final de Computação Paralela
+
+O crescimento exponencial do volume de dados (Big Data) torna o processamento sequencial tradicional inviável para tarefas computacionalmente intensivas, como a análise de sentimentos em milhões de avaliações de produtos. Este trabalho aborda este desafio através do projeto, implementação e avaliação de desempenho de uma pipeline de Extração, Transformação e Carga (ETL) utilizando o framework de computação paralela Apache Spark.
+
+Para garantir a governança e qualidade dos dados, a solução foi estruturada na Arquitetura Medallion, dividindo o processo nas camadas Bronze (ingestão), Silver (limpeza) e Gold (treinamento de modelo de Machine Learning). O objetivo principal é quantificar os benefícios do paralelismo, comparando sistematicamente o tempo de execução de cada camada em modo sequencial (1 núcleo) e paralelo (múltiplos núcleos). As métricas de speedup e eficiência são utilizadas para analisar como a natureza da carga de trabalho — de operações de I/O a computações intensivas em CPU — impacta a escalabilidade e o desempenho da solução.
