@@ -1,4 +1,4 @@
-# Projeto Final de Computação Paralela
+# Projeto Final de Computação Paralela - Grupo 5
 
 O crescimento exponencial do volume de dados (Big Data) torna o processamento sequencial tradicional inviável para tarefas computacionalmente intensivas, como a análise de sentimentos em milhões de avaliações de produtos. Este trabalho aborda este desafio através do projeto, implementação e avaliação de desempenho de uma pipeline de Extração, Transformação e Carga (ETL) utilizando o framework de computação paralela Apache Spark.
 
